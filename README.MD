@@ -30,3 +30,8 @@ Initial the application will fetch all the disctricts in Tamilnadu India
 * Create Telegram alert , whatsapp, email, twitter
 * Blog on vaccine drive in tamilnadu and more ... etc
 
+### Grow with technology
+* Any one interested can take a pull and do additional feature to make it look more better
+
+
+Thanks
