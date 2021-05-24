@@ -24,3 +24,9 @@ Initial the application will fetch all the disctricts in Tamilnadu India
 * Select you disctricts and data will shown 
 * You can see all clinic and also do a quick filter on available slots 
 
+### Features to build 
+* Planning for filtering by age group , vaccine name, sub location 
+* Show a graph of people vaccinated and promote people to vaccinate
+* Create Telegram alert , whatsapp, email, twitter
+* Blog on vaccine drive in tamilnadu and more ... etc
+
