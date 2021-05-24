@@ -15,7 +15,7 @@ export const getDistrictsInfo = async (req, res) => {
         res.status(200).json({'status': 'success', data})        
     })
     .catch((error) => {
-        res.status(400).json({'status': 'fail', msg: 'failed to get districts'})  
+        res.status(400).json({'status': 'fail', msg: 'failed to get districts', error})  
     })
 }
 
