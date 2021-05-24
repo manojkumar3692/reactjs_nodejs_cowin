@@ -44,12 +44,12 @@ function Home(props) {
         <div className="home">
             <div>
                 <div>
-                    <select onChange={(e)=> getSlots(e)}>
+                    <select className="home__select" onChange={(e)=> getSlots(e)}>
                         {
                             allDistricts.map((each) => <option key={each.district_id} value={each.district_id}>{each.district_name}</option>)
                         }
                     </select>
-                    <button onClick={() => isDoseAvailable(allSlots) }>Filter only Available Slots</button>
+                    <button className="filterAction" onClick={() => isDoseAvailable(allSlots) }>Filter only Available Slots</button>
                 </div>
             </div>
             <div>

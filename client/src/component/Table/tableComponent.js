@@ -43,12 +43,12 @@ function TableComponent(props) {
         ({ row }) => {
             const {original} = row
             return (
-                <div>
+                <div className="vaccineSlots">
                     
                         {
                             original.sessions.map((each) => {
                                 return (
-                                   <div>
+                                   <div className="vaccineSlots__container">
                                        <ul>
                                             <li>Vaccine Name: {each.vaccine}</li>
                                             <li>Available Dose: {each.available_capacity}</li>
@@ -82,7 +82,7 @@ function TableComponent(props) {
              <>
       <pre>
       </pre>
-      <table {...getTableProps()} style={{ border: 'solid 1px blue', width: '100%' }}>
+      <table {...getTableProps()} style={{ width: '100%' }}>
         <thead>
           {headerGroups.map(headerGroup => (
             <tr {...headerGroup.getHeaderGroupProps()}>
