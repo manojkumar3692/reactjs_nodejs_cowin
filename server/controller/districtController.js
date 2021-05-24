@@ -3,10 +3,9 @@ import axios from 'axios';
  
 export const getDistrictsInfo = async (req, res) => {
     let headers = {
-        'accept': 'application/json',
+        'accept': 'application/json', 
         'Accept-Language': 'hi_IN',
-        'Authorization': `Bearer ${123}`,
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+        'X-Requested-With': 'XMLHttpRequest',
     }
     await axios.get('https://cdn-api.co-vin.in/api/v2/admin/location/districts/31',{
         headers: headers,
